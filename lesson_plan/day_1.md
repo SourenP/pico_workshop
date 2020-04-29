@@ -18,11 +18,12 @@
 		- ```lua
 		  function _draw()
 			cls()
-			circfill(64,64,6,9)		
+			circfill(64,64,6,9)
 			spr(1, 60, 80)
 		    sfx(0)
 		  end
 		  ```
+          ![draw_single](images/draw_single.png)
 	- Draw Loop
 		- For loop
 		- ```lua
@@ -30,9 +31,10 @@
 			cls()
 			for i=1,10 do
 			  circfill(i*10,i*10,i,i)
-			end		
+			end
 		  end
 		  ```
+          ![draw_loop](images/draw_loop.png)
 	- Draw Table
 		- Table (map)
 		- ```lua
@@ -45,12 +47,13 @@
 			    kapik=24
 			  }
 			end
-			
+
 			function _draw()
 			  cls()
 			  circfill(c.x,c.y,c.r,c.c)
 			end
 		  ```
+          ![draw_table_map](images/draw_table_map.png)
 		- Table (array)
 		- ```lua
 			function _init()
@@ -61,25 +64,26 @@
 			    c = 9,
 			    kapik=24
 			  }
-			
+
 			  c2 = {
 			    x = 50,
 			    y = 80,
 			    r = 10,
 			    c = 6
 			  }
-					
+
 			  circles = {c1, c2}
 			  -- or add(cirlces,c1)
 			end
-			
+
 			function _draw()
 			  cls()
 			  for c in all(circles) do
 			    circfill(c.x,c.y,c.r,c.c)
 			  end
 			end
-		```
+		  ```
+          ![draw_table_array](images/draw_table_array.png)
 	- Draw Update
     	- _update, rnd, flr
 	    - ```lua
@@ -92,14 +96,14 @@
 			    c = 6
 			  }
 			end
-	
+
 			function _update()
 			  circle.x = flr(rnd(128))
 			  circle.y = flr(rnd(128))
 			  circle.c = flr(rnd(16))
 			  circle.r = flr(rnd(5))
 			end
-			
+
 			function _draw()
 			  circfill(
 			    circle.x,
@@ -109,6 +113,7 @@
 			  )
 			end
 	      ```
+          ![draw_update](images/draw_update.gif)
   - Commands
     - SAVE, LOAD, RUN
 - Homework
