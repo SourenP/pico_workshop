@@ -1,5 +1,7 @@
 # pico_workshop
 
+![pico8_postcard](images/pico8_postcard.png)
+
 ### Description
 PICO-8 is a virtual console for making and playing retro looking games. We'll spend two weeks writing code, drawing sprites, sequencing music and designing levels to create games on it!
 
