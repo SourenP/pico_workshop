@@ -34,7 +34,7 @@ Meet eachother, learn about PICO-8 and make our first visualization!
 ### Hello Circle
 
 ### Draw single
- shapes `circlfill`, sprites `spr`, sounds `sfx`
+shapes `circlfill`, sprites `spr`, sounds `sfx`
 ```lua
 function _draw()
 cls()
