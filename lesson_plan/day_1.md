@@ -33,7 +33,7 @@ Meet eachother, learn about PICO-8 and make our first visualization!
 
 ### Hello Circle
 
-### Draw single
+#### Draw single
 shapes `circlfill`, sprites `spr`, sounds `sfx`
 ```lua
 function _draw()
@@ -44,7 +44,7 @@ sfx(0)
 end
 ```
 ![draw_single](images/draw_single.png)
-### Draw Loop
+#### Draw Loop
 for loops `for i=1,10 do`
 ```lua
 function _draw()
