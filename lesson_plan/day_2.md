@@ -24,6 +24,8 @@ Make our first game!
 - Now that we know how to draw, if we add interactivity - we'll have our first game!
 - We're going to make a game where you collect dropping fruit
 
+![fruit_drop](images/fruit_drop.gif)
+
 #### Fruit Drop
 
 - Follow slightly modified fruit drop tutorial
