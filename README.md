@@ -31,3 +31,17 @@ _hidden_
 - Day 4
 - Day 5
 - Day 6
+
+### Resources
+- PICO-8 Documentation
+  - [Official PICO-8 Documentation](https://www.lexaloffle.com/pico-8.php?page=resources)
+- PICO-8 API Reference Wiki
+  - [Wiki: API Reference](https://pico-8.fandom.com/wiki/APIReference)
+- Lua Documentation
+  - [DevDocs: Lua Documentation](https://devdocs.io/lua/)
+  - [Programming in Lua](https://www.lua.org/pil/contents.html)
+- Tutorials
+  - [Nerdy Coding: PICO-8 Tutorials and Guides](https://nerdyteachers.com/PICO-8/)
+- Additional Resources
+  - [PICO-ATE: Altruistic Template Encyclopedia for PICO-8](https://www.pico-ate.com/)
+
