@@ -1,26 +1,33 @@
 # Day 1
 
-## Description
+## Overview
 
-Meet eachother, learn about PICO-8 and make our first visualization!
+Meet+greet, learn about PICO-8 and make our first visualization!
 
 ## Plan
 
 ### Intros
-- Introduce Self
-- Introduce Students
-    - Say TODO about yourself
+
+- Teacher and students
+    - Name
+    - Mention a game you like and why
+        - Maybe chosen pico-8 game from application
 
 ### PICO-8
 
 - Talk about PICO-8
-  - Virtual console
-  - Limitations
-  - Community
+    - Virtual console
+    - Limitations
+    - Community
 - Showcase games
+    - TODO
 - Showcase visuals
+    - TODO
 
 ### Dive in!
+
+- Intro
+  - "Today we'll make a visualization while learning about PICO-8!"
 - Navigation
 	- Everyone open PICO-8 and share your screen
 	- Commands
@@ -33,14 +40,18 @@ Meet eachother, learn about PICO-8 and make our first visualization!
 
 ### Hello Circle
 
+- We will now make some visualization.
+- Everyone should copy the code we are writing and make sure they get the same result as me.
+- Feel free to interrupt me at any point if you get stuck or have any questions
+
 #### Draw single
 shapes `circlfill`, sprites `spr`, sounds `sfx`
 ```lua
 function _draw()
-cls()
-circfill(64,64,6,9)
-spr(1, 60, 80)
-sfx(0)
+  cls()
+  circfill(64,64,6,9)
+  spr(1, 60, 80)
+  sfx(0)
 end
 ```
 ![draw_single](images/draw_single.png)
@@ -138,6 +149,9 @@ end
 ```
 ![draw_update](images/draw_update.gif)
 
+#### Code from today
+
+- [circles](code/circles.p8)
 
 #### Commands
 - `SAVE`
@@ -146,8 +160,19 @@ end
 
 ### Homework
 - Draw a pretty picture using
-  - `_init`
-  - `_update`
-  - `_draw`
-  - tables
-  - shapes
+    - `_init`
+    - `_update`
+    - `_draw`
+    - tables
+    - shapes
+
+- Use resources
+    - [PICO-8 Resources](https://github.com/SourenP/pico_workshop#resources)
+      - [Cheat Sheet](https://www.lexaloffle.com/bbs/files/16585/PICO-8_Cheat-Sheet_0-9-2.png)
+    - [Workshop repo](https://github.com/SourenP/pico_workshop)
+      - [This lesson plan](https://github.com/SourenP/pico_workshop/blob/master/lesson_plan/day_1.md)
+
+### Bye bye
+
+- Reminder of names :)
+- Bye bye
