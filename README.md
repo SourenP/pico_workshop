@@ -24,7 +24,7 @@ Read more here: [lexaloffle.com/pico-8.php?page=schools](lexaloffle.com/pico-8.p
 ### Lesson Plan
 
 - [Day 1](lesson_plan/day_1.md)
-- Day 2
+- [Day 2](lesson_plan/day_2.md)
 - Day 3
 - Day 4
 - Day 5
@@ -55,4 +55,17 @@ _hidden_
   - [Nerdy Coding: PICO-8 Tutorials and Guides](https://nerdyteachers.com/PICO-8/)
 - Additional Resources
   - [PICO-ATE: Altruistic Template Encyclopedia for PICO-8](https://www.pico-ate.com/)
+  
+  
+### Todo
 
+- [X] Application
+- [X] Resources 
+- [ ] Examples of pico-8 games (for day 1)
+- [X] Lesson plan day 1
+- [X] Lesson plan day 2
+- [ ] Lesson plan day 3
+- [ ] Lesson plan day 4
+- [ ] Lesson plan day 5
+- [ ] Lesson plan day 6
+- [ ] Examples of types of games you can make
