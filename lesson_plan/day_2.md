@@ -260,6 +260,8 @@ sfx(1)
 
 [fruit_drop.p8](code/fruit_drop.p8)
 
+![fruit_drop](images/fruit_drop.gif)
+
 ### Homework
 - Change the fruit drop game into your own creation!
     - Some ideas:

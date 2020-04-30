@@ -149,14 +149,16 @@ end
 ```
 ![draw_update](images/draw_update.gif)
 
-#### Code from today
-
-- [circles](code/circles.p8)
-
 #### Commands
 - `SAVE`
 - `LOAD`
 - `RUN`
+
+#### Code from today
+
+- [circles](code/circles.p8)
+
+![draw_update](images/draw_update.gif)
 
 ### Homework
 - Draw a pretty picture using
