@@ -12,7 +12,7 @@ For example, a Unity game might have to work on dozens of screen resolutions, bu
 ### Logistics
 - 6 lessons, each 2 hours
 
-## Software and Licensing
+### Software and Licensing
 The entire game development workflow can be run on the PICO-8 executable.
 It runs on Windows, Mac and Linux.
 
