@@ -45,10 +45,12 @@ function _update()
        fruit.x+4<=player_x+8 then
       points+=1
       del(fruits,fruit)
+      sfx(0)
     end
 
     if fruit.y>100 then
       del(fruits,fruit)
+      sfx(1)
     end
   end
 

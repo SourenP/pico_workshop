@@ -122,13 +122,13 @@ end
 `_update`, `rnd`, `flr`
 ```lua
 function _init()
-    -- cls()
-    circle = {
+-- cls()
+  circle = {
     x = 64,
     y = 64,
     r = 4,
     c = 6
-    }
+  }
 end
 
 function _update()

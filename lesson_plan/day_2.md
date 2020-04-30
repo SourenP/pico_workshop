@@ -49,9 +49,9 @@ player_y=100
 #### Draw sprites
 
 - Go into the sprite editor and make the sprites
-    - [1] Basket
-    - [2] Player
-    - [3] Fruit
+    - [01] Basket
+    - [02] Player
+    - [03] Fruit
 
 #### More variables
 
@@ -66,7 +66,7 @@ points=0
 
 #### Game loop
 
-Most games have this loop
+- Most games have this loop
     - init: setup game
     - update: make changes
         - 30/sec in pico-8
@@ -239,6 +239,21 @@ end
   - Should see score
   - Fruits should disappear when they hit floor
 
+#### Add sound effect for fruit catch and floor hit
+
+```lua
+-- ...
+del(fruits, fruit)
+sfx(0)
+
+-- ..
+del(fruits, fruit)
+sfx(1)
+```
+
+- Run game!
+  - Should hear sound effects
+
 #### Code from today
 
 [fruit_drop.p8](code/fruit_drop.p8)
@@ -246,8 +261,8 @@ end
 ### Homework
 - Change the fruit drop game into your own creation!
     - Some ideas:
-        - Add different kinds of fruit each with different score
         - Make rounds of falling fruit
+        - Add different kinds of fruit each with different score
         - Add a poison fruit that makes you lose if you catch it
         - Add a capacity to that basket that you need to empty somewhere
         - Draw more sprites and make more sound effects / music
