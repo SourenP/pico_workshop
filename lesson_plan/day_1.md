@@ -34,16 +34,16 @@ TODO
 ### Hello Circle
 
 ### Draw single
-    - shapes `circlfill`, sprites `spr`, sounds `sfx`
-    - ```lua
-        function _draw()
-        cls()
-        circfill(64,64,6,9)
-        spr(1, 60, 80)
-        sfx(0)
-        end
-        ```
-        ![draw_single](images/draw_single.png)
+shapes `circlfill`, sprites `spr`, sounds `sfx`
+```lua
+function _draw()
+  cls()
+  circfill(64,64,6,9)
+  spr(1, 60, 80)
+  sfx(0)
+end
+```
+![draw_single](images/draw_single.png)
 ### Draw Loop
 for loops `for i=1,10 do`
 ```lua
