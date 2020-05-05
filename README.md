@@ -11,6 +11,29 @@ We will be coding in Lua, a simple scripting language that can be picked up fair
 Unity is a great example of a game engine with very few constraints on what you can create. While that's good, it also means you have many decisions to make. PICO-8's constraints do away with many of those decisions and let you focus on just creating your game.
 For example, a Unity game might have to work on dozens of screen resolutions, but in PICO-8, you get one resolution of 128x128. This frees you to put more effort into making your game work well in that one resolution." - Dylan Bennet in their Game Development with PICO-8 Zine
 
+### Examples of what can be made with PICO-8
+
+- Action
+  - [Polar Panic](https://www.lexaloffle.com/bbs/?pid=70606#p)
+  - [Just One Boss](https://www.lexaloffle.com/bbs/?tid=30767)
+- Arcade
+  - [Dodge](https://www.lexaloffle.com/bbs/?pid=66443#p)
+  - [Netty](https://www.lexaloffle.com/bbs/?pid=42446#p)
+- Platformer
+  - [Celeste](https://www.lexaloffle.com/bbs/?tid=2145)
+- Puzzle
+  - [Valdi: Shadows](https://www.lexaloffle.com/bbs/?pid=55085#p)
+- Atmosphere/vibe
+  - [Embrace](https://www.lexaloffle.com/bbs/?pid=57202#p)
+  - [Orbiter Suite](https://www.lexaloffle.com/bbs/?pid=50543#p)
+- Visual aka Demo
+  - [LINES](https://www.lexaloffle.com/bbs/?pid=64653#p)
+  - [PICOCHAK](https://www.lexaloffle.com/bbs/?pid=69361#p)
+  - [neon](https://www.lexaloffle.com/bbs/?pid=74526#p)
+- Remake
+  - [FUZ](https://www.lexaloffle.com/bbs/?pid=64346#p)
+  - [PICOHOT](https://www.lexaloffle.com/bbs/?pid=74385#p)
+
 ### Logistics
 - 6 lessons, each 2 hours
 
@@ -20,6 +43,7 @@ It runs on Windows, Mac and Linux.
 
 The software can be purchased by educators with a "Take-Home License" at 20% of the price ($3) in blocks of 10 or more.
 Read more here: [lexaloffle.com/pico-8.php?page=schools](lexaloffle.com/pico-8.php?page=schools)
+
 
 ### Lesson Plan
 
@@ -39,9 +63,9 @@ Read more here: [lexaloffle.com/pico-8.php?page=schools](lexaloffle.com/pico-8.p
   - objects
   - functions
 
-### Application 
-_hidden_
+### Application
 
+_hidden_
 
 ### Resources
 - PICO-8 Documentation
@@ -55,13 +79,13 @@ _hidden_
   - [Nerdy Coding: PICO-8 Tutorials and Guides](https://nerdyteachers.com/PICO-8/)
 - Additional Resources
   - [PICO-ATE: Altruistic Template Encyclopedia for PICO-8](https://www.pico-ate.com/)
-  
-  
+
+
 ### Todo
 
 - [X] Application
-- [X] Resources 
-- [ ] Examples of pico-8 games (for day 1)
+- [X] Resources
+- [X] Examples of pico-8 games
 - [X] Lesson plan day 1
 - [X] Lesson plan day 2
 - [ ] Lesson plan day 3
