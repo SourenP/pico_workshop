@@ -46,14 +46,14 @@ player_x=64
 player_y=100
 ```
 
-![player_pos](images/player_pos.png)
-
 #### Draw sprites
 
 - Go into the sprite editor and make the sprites
     - [01] Basket
     - [02] Player
     - [03] Fruit
+
+![fruit_sprites](images/fruit_sprites.png)
 
 #### More variables
 
@@ -93,37 +93,48 @@ end
 
 ```lua
 function _draw()
-  cls()
+  cls(12)
   rectfill(0,108,127,127,3)
   spr(player_sprite,player_x,player_y)
   spr(basket_sprite,player_x,player_y-8)
 end
 ```
 
-![basket_pos](images/basket_pos.png)
-![draw_ground](images/draw_ground.png)
-
 - Run game!
     - Should see player, basket and floor
 
+![fruit_draw](images/fruit_draw.png)
+
 #### Player controls
 
+##### Player move
 - Introduce if statement
 
 ```lua
 function _update()
-  if btn(0) then player_x-=2 end
-  if btn(1) then player_x+=2 end
+  if btn(0) then
+    player_x-=2
+  end
+  if btn(1) then
+    player_x+=2
+  end
 end
 ```
-
-![player_move](images/player_move.png)
 
 - Run game!
     - Should be able to move player
 
+![fruit_player](images/fruit_player.gif)
+
+
+##### Screen borders
+
 - Modification:
     - Let's make the player not be able to leave the screen!
+
+- *Exercise!*
+    - How would you do this?
+    - Base code: [code/excercises/fruit_player.p8](code/excercises/fruit_player.p8)
 
 ```lua
 function _update()
@@ -151,15 +162,20 @@ end
 
 ```lua
 function _update()
-  if btn(0) and player_x > 2 then
+  if btn(0) and player_x >= 2 then
       player_x-=2
   end
 
-  if btn(1) and player_x < 128 - 8 then
+  if btn(1) and player_x <= (128-8-2) then
       player_x+=2
   end
 end
 ```
+
+- Run game!
+    - Player shouldn't be able to lave screen on both sides
+
+![fruit_border](images/fruit_border.gif)
 
 #### Create the fruit
 
@@ -197,6 +213,8 @@ end
 - Run game!
     - Should see 4 fruit fall
 
+![fruit_fall](images/fruit_fall.gif)
+
 
 #### Catch fruit
 
@@ -219,7 +237,13 @@ end
 - Run game!
     - Should be able to catch falling fruit
 
+![fruit_catch](images/fruit_catch.gif)
+
 #### Score points and delete fruit that hit floor
+
+- *Exercise!*
+    - How would you make the fruit disappear when it hits the floor?
+    - Base code: [code/exercises/fruit_floor.p8](code/exercises/fruit_floor.p8)
 
 ```lua
 function _update()
@@ -240,6 +264,8 @@ end
 - Run game!
   - Should see score
   - Fruits should disappear when they hit floor
+
+![fruit_floor](images/fruit_floor.gif)
 
 #### Add sound effect for fruit catch and floor hit
 
@@ -270,7 +296,8 @@ sfx(1)
         - Add a poison fruit that makes you lose if you catch it
         - Add a capacity to that basket that you need to empty somewhere
         - Draw more sprites and make more sound effects / music
-        - Come up with your own idea!
+        - Make the basket fill up when you catch fruit
+        - Come up with your own ideas!
 
 - Use resources
     - [nerdyteachers:: FruitDrop Tutorial](https://nerdyteachers.com/Explain/FruitDrop/)

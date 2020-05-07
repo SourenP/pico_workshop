@@ -5,47 +5,35 @@ __lua__
 function _init()
   --player table
   player={
-      x = 60,
-      y = 60,
-      c = 9,
-      r = 2,
-      speed = 1.5,
-      eat = 0
+    x = 60,
+    y = 60,
+    c = 9,
+    r = 2,
+    speed = 1.5,
   }
+
 
   --game settings
   enemies = {}
-  max_enemies = 15
-  max_enemy_size = 10
+  max_enemies = 12
+  max_enemy_size = 6
   enemy_speed = 0.6
   points = 0
 end
 
--->8
---update
-function _update()
-  --player controls
-  if btn(0) then player.x -= player.speed end
-  if btn(1) then player.x += player.speed end
-  if btn(2) then player.y -= player.speed end
-  if btn(3) then player.y += player.speed end
-
-  --flip sides
-  if player.x > 127 then player.x = 1 end
-  if player.x < 0 then player.x = 126 end
-  if player.y > 127 then player.y = 1 end
-  if player.y < 0 then player.y = 126 end
-end
-
--->8
 --draw
 function _draw()
   cls()
+
   --player
   circfill(player.x,player.y,player.r,player.c)
   circ(player.x,player.y,player.r+1,player.c+1)
 end
 
+function _update()
+  --player movement
+  
+end
 __gfx__
 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000

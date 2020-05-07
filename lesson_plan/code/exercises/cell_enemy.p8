@@ -5,13 +5,13 @@ __lua__
 function _init()
   --player table
   player={
-      x = 60,
-      y = 60,
-      c = 9,
-      r = 2,
-      speed = 1.5,
-      eat = 0
+    x = 60,
+    y = 60,
+    c = 9,
+    r = 2,
+    speed = 1.5,
   }
+
 
   --game settings
   enemies = {}
@@ -21,10 +21,17 @@ function _init()
   points = 0
 end
 
--->8
---update
+--draw
+function _draw()
+  cls()
+
+  --player
+  circfill(player.x,player.y,player.r,player.c)
+  circ(player.x,player.y,player.r+1,player.c+1)
+end
+
 function _update()
-  --player controls
+  --player movement
   if btn(0) then player.x -= player.speed end
   if btn(1) then player.x += player.speed end
   if btn(2) then player.y -= player.speed end
@@ -40,50 +47,16 @@ function _update()
   create_enemies()
 
   -- move enemies
-  for enemy in all(enemies) do
-    enemy.x += enemy.speed_x
-    enemy.y += enemy.speed_y
-
-    -- outside screen
-    if enemy.x > (128+25)
-    or enemy.x < -25
-    or enemy.y < -25
-    or enemy.y > (128+25) then
-      del(enemies,enemy)
-      points += 1
-    end
-  end
 end
 
--->8
---draw
-function _draw()
-  cls()
-
-  --player
-  circfill(player.x,player.y,player.r,player.c)
-  circ(player.x,player.y,player.r+1,player.c+1)
-
-  --enemies
-  for enemy in all(enemies) do
-    circfill(enemy.x,enemy.y,enemy.r,enemy.c)
-  end
-
-  --score
-  print("score= "..points)
-end
-
--->8
---enemies
 function create_enemies()
   if #enemies < max_enemies then
-    --make enemy table
-    local speed = flr(rnd(2) + 1) * enemy_speed
+  --make enemy table
     local enemy = {
       x = 0,
       y = 0,
-      speed_x = speed,
-      speed_y = speed,
+      speed_x = enemy_speed,
+      speed_y = enemy_speed,
       r = flr(rnd(max_enemy_size))+1,
       c = flr(rnd(15))+1
     }
@@ -92,26 +65,26 @@ function create_enemies()
     place = flr(rnd(4))
     if place == 0 then
       --left
-      enemy.x = -8 - flr(rnd(16))
+      enemy.x = -8
       enemy.y = flr(rnd(128))
       enemy.speed_x = enemy.speed_x
       enemy.speed_y = 0
     elseif place==1 then
       --right
-      enemy.x = 128+8 + flr(rnd(16))
+      enemy.x = 128+8
       enemy.y = flr(rnd(128))
       enemy.speed_x = -enemy.speed_x
       enemy.speed_y = 0
     elseif place==2 then
       --top
       enemy.x = flr(rnd(128))
-      enemy.y = -8 - flr(rnd(16))
+      enemy.y = -8
       enemy.speed_x = 0
       enemy.speed_y = enemy.speed_y
     elseif place==3 then
       --bottom
       enemy.x = flr(rnd(128))
-      enemy.y = 128+8 + flr(rnd(16))
+      enemy.y = 128+8
       enemy.speed_x = 0
       enemy.speed_y = -enemy.speed_y
     end
@@ -120,7 +93,6 @@ function create_enemies()
     add(enemies,enemy)
   end
 end
-
 __gfx__
 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000

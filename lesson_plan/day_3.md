@@ -50,29 +50,53 @@ end
 
 ##### Player table
 ```lua
-`--player table
-player={
-  x = 60,
-  y = 60,
-  c = green,
-  r = 2,
-  speed = 1.5,
-}
+  --player table
+  player={
+    x = 60,
+    y = 60,
+    c = 9,
+    r = 2,
+    speed = 1.5,
+  }
 ```
 
 ##### Game settings
 ```lua
---game settings
-enemies = {}
-max_enemies = 12
-max_enemy_size = 6
-enemy_speed = 0.6
-points = 0
+  --game settings
+  enemies = {}
+  max_enemies = 12
+  max_enemy_size = 6
+  enemy_speed = 0.6
+  points = 0
 ```
 
 #### Player
 
+##### Draw player
+
+- *Exercise!*
+  - How would you do this using the `player` table?
+  - Base code: [code/exercises/cell_draw.p8](code/exercises/cell_draw.p8)
+    - Write code under comment `--player` in `_draw()`
+
+```lua
+--draw
+function _draw()
+  cls()
+
+  --player
+  circfill(player.x,player.y,player.r,player.c)
+  circ(player.x,player.y,player.r+1,player.c+1)
+end
+```
+
 ##### Move player
+
+- *Exercise!*
+  - How would we get the player to move using the `player` table
+  - Hint: we have `player.x` `player.y` `player.speed` `btn(0) btn(1) btn(2) btn(3)`
+  - Base code: [code/exercises/cell_move.p8](code/exercises/cell_move.p8)
+    - Write code under comment `--player movement` in `_update()`
 
 ```lua
 function _update()
@@ -90,28 +114,9 @@ function _update()
 end
 ```
 
-![gameScreen](images/gameScreen.png)
-
-##### Draw player
-
-
-- *Exercise!*
-  - How would you do this?
-
-```lua
---draw
-function _draw()
-  cls()
-
-  --player
-  circfill(player.x,player.y,player.r,player.c)
-  circ(player.x,player.y,player.r+1,player.c+1)
-end
-```
-
 - Run game!
     - Should be able to move around player circle
-    - [cell_player.p8](code/cell_player.p8)
+    - [code/partial/cell_player.p8](code/partial/cell_player.p8)
 
 ![cell_player](images/cell_player.gif)
 
@@ -188,7 +193,10 @@ end
 
 ##### Move and draw enemies
 
-Move enemies:
+- *Exercise!*
+  - How do we make the enemies move?
+  - Base code: [code/exercises/cell_enemy.p8](code/exercises/cell_enemy.p8)
+    - Write code under comment `-- move enemies` in `_update()`
 
 ```lua
 function _update()
@@ -230,6 +238,7 @@ end
 
 - *Exercise!*
   - How would you do this?
+  - No need to write code, discuss verbally and write together
 
 - A way to solve this is to
   - scale their speed by a random number
@@ -275,16 +284,20 @@ function create_enemies()
 
 - Run game!
     - Enemies should move in random offsets and speeds from all directions
-    - [cell_enemies.p8](code/cell_enemies.p8)
+    - [code/partial/cell_spawn.p8](code/partial/cell_spawn.p8)
 
 ![cell_enemies_rnd](images/cell_enemies_rnd.gif)
 
 ##### Delete enemies
 
 - We only have one wave of enemies. When an enemy leaves the screen they keep going forever.
-- We should delete an enemy when it leaves the screen so that a new enemy spawns in its place.
-- We can also give the player a point when an enemy leaves.
 
+
+- *Exercise!*
+  - We should delete an enemy when it leaves the screen so that a new enemy spawns in its place.
+  - We can also give the player a point when an enemy leaves.
+  - Base code: [code/exercises/cell_delete.p8](code/exercises/cell_delete.p8)
+    - Write code under comment `-- delete enemies` in `_update()`
 
 Delete enemy and give point:
 ```lua
@@ -303,7 +316,7 @@ function _update()
     enemy.x += enemy.speed_x
     enemy.y += enemy.speed_y
 
-    -- outside screen
+    -- delete enemies
     if enemy.x > (128+25)
     or enemy.x < -25
     or enemy.y < -25
@@ -324,7 +337,7 @@ end
 
 - Run game!
     - Enemies should respawn and player should score points
-    - [cell_points.p8](code/cell_points.p8)
+    - [code/partial/cell_points.p8](code/partial/cell_points.p8)
 
 ![cell_points](images/cell_points.gif)
 
@@ -369,6 +382,8 @@ end
 
 - *Exercise!*
   - How would you do this?
+  - Base code: [code/exercises/cell_collide.p8](code/exercises/cell_collide.p8)
+    - Write code under comment `-- enemy player collision` in `_update()`
 
 ```lua
 function _update()
@@ -394,7 +409,7 @@ end
 
 #### Code from today
 
-[cell.p8](code/cell.p8)
+[code/cell.p8](code/cell.p8)
 
 ![cell](images/cell.gif)
 

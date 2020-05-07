@@ -45,10 +45,6 @@ function _update()
       points+=1
       del(fruits,fruit)
     end
-    
-    if fruit.y>100 then
-      del(fruits,fruit)
-    end
   end
 end
 

@@ -15,7 +15,7 @@ function _init()
 
   --game settings
   enemies = {}
-  max_enemies = 12
+  max_enemies = 15
   max_enemy_size = 6
   enemy_speed = 0.6
   points = 0
@@ -39,29 +39,13 @@ function _update()
   -- create enemies
   create_enemies()
 
+  -- move enemies
   for enemy in all(enemies) do
-    -- move enemies
     enemy.x += enemy.speed_x
     enemy.y += enemy.speed_y
 
     -- delete enemies
-    if enemy.x > 128 + 26
-    or enemy.x < -26
-    or enemy.y < -26
-    or enemy.y > 128 + 26 then
-      del(enemies,enemy)
-      points += 1
-    end
-
-    -- enemy player collision
-    if circ_collide(
-      player.x,player.y,player.r,
-      enemy.x,enemy.y,enemy.r
-    ) then
-      points = 0
-    end
   end
-
 end
 
 -->8
@@ -77,29 +61,6 @@ function _draw()
   for enemy in all(enemies) do
     circfill(enemy.x,enemy.y,enemy.r,enemy.c)
   end
-
-  --score
-  print("score= "..points)
-end
-
--->8
---collision
-function circ_collide(x1,y1,r1,x2,y2,r2)
-
-    dist = sqrt((x1-x2) * (x1-x2) + (y1-y2) * (y1-y2))
-
-    rsum = (r1+r2)
-
-    if dist == rsum then
-        --circles touch
-        return false
-    elseif dist>rsum then
-        --circles not touch
-        return false
-    else
-        --circles overlap
-        return true
-    end
 end
 
 -->8
@@ -107,7 +68,7 @@ end
 function create_enemies()
   if #enemies < max_enemies then
     --make enemy table
-    local speed = flr(rnd(2) + 1) * enemy_speed
+    local speed = flr(rnd(3)) * enemy_speed
     local enemy = {
       x = 0,
       y = 0,

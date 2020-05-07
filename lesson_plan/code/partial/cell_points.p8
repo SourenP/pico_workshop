@@ -39,29 +39,20 @@ function _update()
   -- create enemies
   create_enemies()
 
+  -- move enemies
   for enemy in all(enemies) do
-    -- move enemies
     enemy.x += enemy.speed_x
     enemy.y += enemy.speed_y
 
     -- delete enemies
-    if enemy.x > 128 + 26
-    or enemy.x < -26
-    or enemy.y < -26
-    or enemy.y > 128 + 26 then
+    if enemy.x > (128+25)
+    or enemy.x < -25
+    or enemy.y < -25
+    or enemy.y > (128+25) then
       del(enemies,enemy)
       points += 1
     end
-
-    -- enemy player collision
-    if circ_collide(
-      player.x,player.y,player.r,
-      enemy.x,enemy.y,enemy.r
-    ) then
-      points = 0
-    end
   end
-
 end
 
 -->8
@@ -80,26 +71,6 @@ function _draw()
 
   --score
   print("score= "..points)
-end
-
--->8
---collision
-function circ_collide(x1,y1,r1,x2,y2,r2)
-
-    dist = sqrt((x1-x2) * (x1-x2) + (y1-y2) * (y1-y2))
-
-    rsum = (r1+r2)
-
-    if dist == rsum then
-        --circles touch
-        return false
-    elseif dist>rsum then
-        --circles not touch
-        return false
-    else
-        --circles overlap
-        return true
-    end
 end
 
 -->8

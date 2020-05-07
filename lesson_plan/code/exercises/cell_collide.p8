@@ -39,29 +39,22 @@ function _update()
   -- create enemies
   create_enemies()
 
+  -- move enemies
   for enemy in all(enemies) do
-    -- move enemies
     enemy.x += enemy.speed_x
     enemy.y += enemy.speed_y
 
     -- delete enemies
-    if enemy.x > 128 + 26
-    or enemy.x < -26
-    or enemy.y < -26
-    or enemy.y > 128 + 26 then
+    if enemy.x > (128+25)
+    or enemy.x < -25
+    or enemy.y < -25
+    or enemy.y > (128+25) then
       del(enemies,enemy)
       points += 1
     end
 
     -- enemy player collision
-    if circ_collide(
-      player.x,player.y,player.r,
-      enemy.x,enemy.y,enemy.r
-    ) then
-      points = 0
-    end
   end
-
 end
 
 -->8
