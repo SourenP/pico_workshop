@@ -3,13 +3,14 @@
 ![pico8_postcard](images/pico8_postcard.png)
 
 ### Description
-PICO-8 is a virtual console for making and playing retro looking games. We'll spend two weeks writing code, drawing sprites, sequencing music and designing levels to create games on it!
+[PICO-8](https://www.lexaloffle.com/pico-8.php) is a virtual console for making and playing retro looking games. We'll spend two weeks writing code, drawing sprites, sequencing music and designing levels to create games on it!
 
 We will be coding in Lua, a simple scripting language that can be picked up fairly quickly by someone who is comfortable with coding.
 
-"It's well known that creativity thrives within constraints. Nowhere is that more true than with PICO-8. Limited screen size, color palette, code length, and so on all contribute to an environment where you are actually free to be more creative than you might be with other game engines.
+Dylan Bennet in their Game Development with PICO-8 Zine:
+> "It's well known that creativity thrives within constraints. Nowhere is that more true than with PICO-8. Limited screen size, color palette, code length, and so on all contribute to an environment where you are actually free to be more creative than you might be with other game engines.
 Unity is a great example of a game engine with very few constraints on what you can create. While that's good, it also means you have many decisions to make. PICO-8's constraints do away with many of those decisions and let you focus on just creating your game.
-For example, a Unity game might have to work on dozens of screen resolutions, but in PICO-8, you get one resolution of 128x128. This frees you to put more effort into making your game work well in that one resolution." - Dylan Bennet in their Game Development with PICO-8 Zine
+For example, a Unity game might have to work on dozens of screen resolutions, but in PICO-8, you get one resolution of 128x128. This frees you to put more effort into making your game work well in that one resolution."
 
 ### Examples of what can be made with PICO-8
 
@@ -66,6 +67,7 @@ Read more here: [lexaloffle.com/pico-8.php?page=schools](https://www.lexaloffle.
 
 ### Prereqs
 
+- [PICO-8](https://www.lexaloffle.com/pico-8.php) application
 - Basic coding skills
   - variables
   - loops
