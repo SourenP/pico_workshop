@@ -43,8 +43,8 @@ They also made a nice video that gives a quick intro: [Delightful Game Developme
 ### Method
 
 - Learn by doing
-  - Lessons with exersices and homework for first half
-  - Each student creates their own game for second half
+  - Tutorial style lessons with exersices and homework in first half
+  - Students creates their very own game in second half
 
 ### Outcome
 
