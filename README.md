@@ -52,7 +52,7 @@ The entire game development workflow can be run on the PICO-8 executable.
 It runs on Windows, Mac and Linux.
 
 The software can be purchased by educators with a "Take-Home License" at 20% of the price ($3) in blocks of 10 or more.
-Read more here: [lexaloffle.com/pico-8.php?page=schools](lexaloffle.com/pico-8.php?page=schools)
+Read more here: [lexaloffle.com/pico-8.php?page=schools](https://www.lexaloffle.com/pico-8.php?page=schools)
 
 
 ### Lesson Plan
