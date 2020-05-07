@@ -28,7 +28,7 @@ Make our first game!
 
 #### Fruit Drop
 
-- Follow slightly modified fruit drop tutorial
+- Follow slightly modified version fruit drop tutorial
     - [nerdyteachers:: FruitDrop Tutorial](https://nerdyteachers.com/Explain/FruitDrop/)
     - _Disclaimer: I didn't make this tutorial. It was made by [nerdyteachers](nerdyteachers.com) and all credit goes to them!_
 

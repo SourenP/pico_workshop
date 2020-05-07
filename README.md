@@ -37,6 +37,16 @@ For example, a Unity game might have to work on dozens of screen resolutions, bu
 ### Logistics
 - 6 lessons, each 2 hours
 
+### Method
+
+- Learn by doing
+  - Lessons with exersices and homework for first half
+  - Each student creates their own game for second half
+
+### Outcome
+
+- Each student creates an original PICO-8 game that can be run on the console and web
+
 ### Software and Licensing
 The entire game development workflow can be run on the PICO-8 executable.
 It runs on Windows, Mac and Linux.
@@ -49,7 +59,7 @@ Read more here: [lexaloffle.com/pico-8.php?page=schools](lexaloffle.com/pico-8.p
 
 - [Day 1](lesson_plan/day_1.md)
 - [Day 2](lesson_plan/day_2.md)
-- Day 3
+- [Day 3](lesson_plan/day_3.md)
 - Day 4
 - Day 5
 - Day 6
@@ -62,6 +72,9 @@ Read more here: [lexaloffle.com/pico-8.php?page=schools](lexaloffle.com/pico-8.p
   - arrays
   - objects
   - functions
+- Basic math skills
+  - square and square root
+- Enthusiasm
 
 ### Application
 
@@ -92,4 +105,4 @@ _hidden_
 - [ ] Lesson plan day 4
 - [ ] Lesson plan day 5
 - [ ] Lesson plan day 6
-- [ ] Examples of types of games you can make
+- [ ] Zoom format/tools
