@@ -33,7 +33,7 @@ They also made a nice video that gives a quick intro: [Delightful Game Developme
   - [LINES](https://www.lexaloffle.com/bbs/?pid=64653#p)
   - [PICOCHAK](https://www.lexaloffle.com/bbs/?pid=69361#p)
   - [neon](https://www.lexaloffle.com/bbs/?pid=74526#p)
-- Remake
+- Demake
   - [FUZ](https://www.lexaloffle.com/bbs/?pid=64346#p)
   - [PICOHOT](https://www.lexaloffle.com/bbs/?pid=74385#p)
 
