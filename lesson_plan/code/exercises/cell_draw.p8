@@ -21,6 +21,7 @@ function _init()
   points = 0
 end
 
+-->8
 --draw
 function _draw()
   cls()
@@ -28,6 +29,8 @@ function _draw()
   --player
 end
 
+-->8
+--update
 function _update()
 
 end

@@ -34,10 +34,10 @@ function _update()
   if btn(1) and player_x <= (128-8-2) then
       player_x+=2
   end
-  
+
   for fruit in all(fruits) do
     fruit.y += gravity
-    
+
     if fruit.y+4>=player_y-8 and
        fruit.y+4<=player_y and
        fruit.x+4>=player_x and
@@ -45,6 +45,8 @@ function _update()
       points+=1
       del(fruits,fruit)
     end
+
+    -- floor delete
   end
 end
 
@@ -57,7 +59,7 @@ function _draw()
   for fruit in all(fruits) do
     spr(fruit.sprite, fruit.x, fruit.y)
   end
-  
+
   print("score="..points)
 end
 

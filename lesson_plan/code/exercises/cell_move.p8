@@ -21,6 +21,7 @@ function _init()
   points = 0
 end
 
+-->8
 --draw
 function _draw()
   cls()
@@ -30,9 +31,11 @@ function _draw()
   circ(player.x,player.y,player.r+1,player.c+1)
 end
 
+-->8
+--update
 function _update()
   --player movement
-  
+
 end
 __gfx__
 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000

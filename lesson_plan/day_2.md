@@ -129,15 +129,15 @@ end
 
 ##### Screen borders
 
-- Modification:
-    - Let's make the player not be able to leave the screen!
-
 - *Exercise!*
-    - How would you do this?
-    - Base code: [code/excercises/fruit_player.p8](code/excercises/fruit_player.p8)
+    - How would you make the player not leave the screen?
+    - Base code: [code/excercises/fruit_player.p8](code/exercises/fruit_player.p8)
+      - Modify the code under the comment `--player move` in `_update()`
+
 
 ```lua
 function _update()
+  -- player move
   if btn(0) then
     if player_x > 0 then
       player_x-=2
@@ -179,6 +179,8 @@ end
 
 #### Create the fruit
 
+- Let's create fruit above the screen to drop down
+
 ```lua
 function _init()
   for i=1,fruit_count do
@@ -193,6 +195,9 @@ end
 ```
 
 #### Update the fruit
+
+- Let's move and draw the fruit that we created
+    - We will use the `all` keyword to loop through fruits
 
 ```lua
 function _update()
@@ -244,11 +249,14 @@ end
 - *Exercise!*
     - How would you make the fruit disappear when it hits the floor?
     - Base code: [code/exercises/fruit_floor.p8](code/exercises/fruit_floor.p8)
+      - Write code under comment `--fruit delete` in `_update()`
 
 ```lua
 function _update()
   for fruit in all(fruits) do
     -- ...
+
+    -- floor delete
     if fruit.y>100 then
         del(fruits,fruit)
     end

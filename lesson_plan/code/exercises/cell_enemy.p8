@@ -21,6 +21,7 @@ function _init()
   points = 0
 end
 
+-->8
 --draw
 function _draw()
   cls()
@@ -30,6 +31,8 @@ function _draw()
   circ(player.x,player.y,player.r+1,player.c+1)
 end
 
+-->8
+--update
 function _update()
   --player movement
   if btn(0) then player.x -= player.speed end
@@ -49,6 +52,8 @@ function _update()
   -- move enemies
 end
 
+-->8
+--enemies
 function create_enemies()
   if #enemies < max_enemies then
   --make enemy table

@@ -75,7 +75,7 @@ end
 ##### Draw player
 
 - *Exercise!*
-  - How would you do this using the `player` table?
+  - How would you draw the player using the `player` table
   - Base code: [code/exercises/cell_draw.p8](code/exercises/cell_draw.p8)
     - Write code under comment `--player` in `_draw()`
 

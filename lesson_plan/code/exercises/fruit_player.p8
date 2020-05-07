@@ -20,6 +20,7 @@ function _init()
 end
 
 function _update()
+  -- player move
   if btn(0) then
     player_x-=2
   end
