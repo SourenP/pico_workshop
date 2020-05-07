@@ -12,7 +12,7 @@ Dylan Bennet in their [Game Development with PICO-8 Zine](https://mboffin.itch.i
 Unity is a great example of a game engine with very few constraints on what you can create. While that's good, it also means you have many decisions to make. PICO-8's constraints do away with many of those decisions and let you focus on just creating your game.
 For example, a Unity game might have to work on dozens of screen resolutions, but in PICO-8, you get one resolution of 128x128. This frees you to put more effort into making your game work well in that one resolution."
 
-He also made a nice video that gives a quick intro: [Delightful Game Development with PICO-8](https://www.youtube.com/watch?v=K5RXMuH54iw)
+They also made a nice video that gives a quick intro: [Delightful Game Development with PICO-8](https://www.youtube.com/watch?v=K5RXMuH54iw)
 
 ### Examples of PICO-8 games
 
