@@ -73,7 +73,7 @@ Read more here: [lexaloffle.com/pico-8.php?page=schools](https://www.lexaloffle.
   - objects
   - functions
 - Basic math skills
-  - square and square root
+  - square and square root (optional)
 - Enthusiasm
 
 ### Application
