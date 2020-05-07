@@ -96,12 +96,13 @@ _hidden_
 
 ### Todo
 
+- [ ] Write an intro and motivation
 - [X] Application
 - [X] Resources
 - [X] Examples of pico-8 games
 - [X] Lesson plan day 1
 - [X] Lesson plan day 2
-- [ ] Lesson plan day 3
+- [X] Lesson plan day 3
 - [ ] Lesson plan day 4
 - [ ] Lesson plan day 5
 - [ ] Lesson plan day 6
