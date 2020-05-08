@@ -45,7 +45,6 @@ Meet+greet, learn about PICO-8 and make our first visualization!
 
 - We will now make some visualization.
 - I will explain the code and then give you time to copy and run it.
-- Today as I explain we won't be doing much exercises because I want to teach the syntax but at the end of the class we will do an exercise and for the next lessons we will do exercises as I explain.
 - Feel free to interrupt me at any point if you get stuck or have any questions
 
 #### Draw single
@@ -63,6 +62,12 @@ end
 
 ![draw_single](images/draw_single.png)
 
+- *Exercise! (8m)*
+  - Draw a picture using a couple of shapes
+    - For example: a flower or a face
+  - Use the [Cheat Sheet](https://www.lexaloffle.com/bbs/files/16585/PICO-8_Cheat-Sheet_0-9-2.png) for reference
+  - Remember to run your code you press `ESC` and then type `RUN`. Pressing `ESC` again will open your code.
+
 
 #### Draw Loop
 for loops `for i=1,10 do`
@@ -70,7 +75,7 @@ for loops `for i=1,10 do`
 function _draw()
   cls()
   for i=1,10 do
-    circfill(i*10,i*10,i,i)
+    circfill(i*10,i*10,4,4)
   end
 end
 ```
@@ -78,6 +83,10 @@ end
 - Copy and run!
 
 ![draw_loop](images/draw_loop.png)
+
+- *Exercise! (8m)*
+  - Can you draw 8 rectangles that gradually grow in size and color?
+  - Hint: The `x1, y1` and `x2,y2` are the top left and bottom right points of the rectangle respectively in `RECTFILL(x1, y1, x2, y2, c2)`
 
 #### Draw Table
 ##### Tables as maps
@@ -101,6 +110,10 @@ end
 - Copy and run!
 
 ![draw_table_map](images/draw_table_map.png)
+
+- *Exercise! (8m)*
+  - Can you make a table that describes a square and draw rectfill() using its properties?
+  - Hint: Use the properties `x`, `y`, `size`, `color`
 
 ##### Tables as arrays
 ```lua
@@ -137,6 +150,10 @@ end
 - Copy and run!
 
 ![draw_table_array](images/draw_table_array.png)
+
+- *Exercise! (8m)*
+  - Can you make a table that describes a square and draw rectfill() using its properties?
+  - Hint: Use the properties `x`, `y`, `size`, `color`
 
 #### Draw Update
 `_update`, `rnd`, `flr`
