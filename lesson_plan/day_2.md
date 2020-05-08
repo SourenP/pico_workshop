@@ -129,7 +129,7 @@ end
 
 ##### Screen borders
 
-- *Exercise!*
+- *Exercise! (10m)*
     - How would you make the player not leave the screen?
     - Base code: [code/excercises/fruit_player.p8](code/exercises/fruit_player.p8)
       - Modify the code under the comment `--player move` in `_update()`
@@ -246,7 +246,7 @@ end
 
 #### Score points and delete fruit that hit floor
 
-- *Exercise!*
+- *Exercise! (8m)*
     - How would you make the fruit disappear when it hits the floor?
     - Base code: [code/exercises/fruit_floor.p8](code/exercises/fruit_floor.p8)
       - Write code under comment `--fruit delete` in `_update()`
