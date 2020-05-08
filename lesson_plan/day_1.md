@@ -44,33 +44,37 @@ Meet+greet, learn about PICO-8 and make our first visualization!
 ### Hello Circle
 
 - We will now make some visualization.
-- I will explain the code and then give you time to copy and run it.
+- I will explain the code and then we'll do some exercises.
 - Feel free to interrupt me at any point if you get stuck or have any questions
 
 #### Draw single
-shapes `circlfill`, sprites `spr`, sounds `sfx`
+
+- shapes `circlfill`
+- sprites `spr`
+- sounds `sfx`
+
 ```lua
-function _draw()
+function _init()
   cls()
   circfill(64,64,6,9)
   spr(1, 60, 80)
-  sfx(0)
 end
 ```
 
-- Copy and run!
+- Run!
 
 ![draw_single](images/draw_single.png)
 
 - *Exercise! (8m)*
-  - Draw a picture using a couple of shapes
-    - For example: a flower or a face
+  - Draw a picture using a couple of shapes and a sprite
+    - For example: a flower, a face, a house, etc
   - Use the [Cheat Sheet](https://www.lexaloffle.com/bbs/files/16585/PICO-8_Cheat-Sheet_0-9-2.png) for reference
   - Remember to run your code you press `ESC` and then type `RUN`. Pressing `ESC` again will open your code.
+  - Base code: [code/exercises/draw_single.p8](code/exercises/draw_single.p8)
 
 
 #### Draw Loop
-for loops `for i=1,10 do`
+
 ```lua
 function _draw()
   cls()
@@ -80,13 +84,17 @@ function _draw()
 end
 ```
 
-- Copy and run!
+- How can I make it so that the cirles change color?
+  - Hint: `CIRCFILL(x, y, r, c)` (look in [Cheat Sheet](https://www.lexaloffle.com/bbs/files/16585/PICO-8_Cheat-Sheet_0-9-2.png))
+
+- Run!
 
 ![draw_loop](images/draw_loop.png)
 
 - *Exercise! (8m)*
   - Can you draw 8 rectangles that gradually grow in size and color?
   - Hint: The `x1, y1` and `x2,y2` are the top left and bottom right points of the rectangle respectively in `RECTFILL(x1, y1, x2, y2, c2)`
+  - Base code: [code/exercises/draw_loop.p8](code/exercises/draw_loop.p8)
 
 #### Draw Table
 ##### Tables as maps
@@ -109,11 +117,12 @@ end
 
 - Copy and run!
 
-![draw_table_map](images/draw_table_map.png)
+![draw_map](images/draw_map.png)
 
 - *Exercise! (8m)*
   - Can you make a table that describes a square and draw rectfill() using its properties?
   - Hint: Use the properties `x`, `y`, `size`, `color`
+  - Base code: [code/exercises/draw_map.p8](code/exercises/draw_map.p8)
 
 ##### Tables as arrays
 ```lua
@@ -149,11 +158,12 @@ end
 
 - Copy and run!
 
-![draw_table_array](images/draw_table_array.png)
+![draw_array](images/draw_array.png)
 
 - *Exercise! (8m)*
   - Can you make a table that describes a square and draw rectfill() using its properties?
   - Hint: Use the properties `x`, `y`, `size`, `color`
+  - Base code: [code/exercises/draw_array.p8](code/exercises/draw_array.p8)
 
 #### Draw Update
 `_update`, `rnd`, `flr`
@@ -184,21 +194,21 @@ function _draw()
     )
 end
 ```
-
-- Copy and run!
+- Run!
 
 ![draw_update](images/draw_update.gif)
+
+- *Exercise! (8m)*
+  - How can you modify this visual to make it more interesting?
+  - Feel free to ask questions as you work
+  - Share your results!
+  - Base code: [code/exercises/circles.p8](code/exercises/circles.p8)
+
 
 #### Commands
 - `SAVE`
 - `LOAD`
 - `RUN`
-
-#### Exercise
-
-- How can you modify this visual to make it more interesting?
-- Feel free to ask questions as you work
-- Share your results!
 
 #### Code from today
 
@@ -223,5 +233,4 @@ end
 
 ### Bye bye
 
-- Reminder of names :)
 - Bye bye
