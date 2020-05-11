@@ -87,8 +87,10 @@ _hidden_
 ### Resources
 - PICO-8 Documentation
   - [Official PICO-8 Documentation](https://www.lexaloffle.com/pico-8.php?page=resources)
-- PICO-8 API Reference Wiki
   - [Wiki: API Reference](https://pico-8.fandom.com/wiki/APIReference)
+- PICO-8 Cheat Sheets
+  - [cheatsheet (image)](https://www.lexaloffle.com/bbs/files/16585/PICO-8_Cheat-Sheet_0-9-2.png)
+  - [cheatsheet (site)](https://neko250.github.io/pico8-api/)
 - Lua Documentation
   - [DevDocs: Lua Documentation](https://devdocs.io/lua/)
   - [Programming in Lua](https://www.lua.org/pil/contents.html)
@@ -100,14 +102,10 @@ _hidden_
 
 ### Todo
 
-- [ ] Write an intro and motivation
+- [X] Write an intro and motivation
 - [X] Application
 - [X] Resources
 - [X] Examples of pico-8 games
 - [X] Lesson plan day 1
 - [X] Lesson plan day 2
 - [X] Lesson plan day 3
-- [ ] Lesson plan day 4
-- [ ] Lesson plan day 5
-- [ ] Lesson plan day 6
-- [ ] Zoom format/tools

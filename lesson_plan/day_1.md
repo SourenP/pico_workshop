@@ -15,43 +15,77 @@ Meet+greet, learn about PICO-8 and make our first visualization!
 
 ### PICO-8
 
-- Talk about PICO-8
-    - Virtual console
-    - Limitations
-    - Community
+#### Virtual console
 
-- Showcase games
-    - [Celeste](https://www.lexaloffle.com/bbs/?tid=2145)
-        - A game that was prototyped on the PICO-8 before becoming a very successful game
-    - [Lines](https://www.lexaloffle.com/bbs/?pid=64653#p)
-        - People also create visuals
+> A fantasy console is like a regular console, but without the inconvenience of actual hardware. PICO-8 has everything else that makes a console a console: machine specifications and display format, development tools, design culture, distribution platform, community and playership. It is similar to a retro game emulator, but for a machine that never existed. PICO-8's specifications and ecosystem are instead designed from scratch to produce something that has it's own identity and feels real. Instead of physical cartridges, programs made for PICO-8 are distributed on .png images that look like cartridges, complete with labels and a fixed 32k data capacity. \- [lexaloffle.com](https://www.lexaloffle.com/pico-8.php)
+
+![picohot_cart](images/picohot_cart.png)
+
+> PICO-8 is a fantasy console for making, sharing and playing tiny games and other computer programs. It feels like a regular console, but runs on Windows / Mac / Linux. When you turn it on, the machine greets you with a commandline, a suite of cartridge creation tools, and an online cartridge browser called SPLORE. \- [lexaloffle.com](https://www.lexaloffle.com/pico-8.php)
+
+#### Limitations
+- Display: 128x128 16 colours
+- Cartridge: Size 32k
+- Sound: 4 channel chip blerps
+- Code: Lua
+- Sprites: 256 8x8 sprites
+- Map: 128x32 cels
+
+> The harsh limitations of PICO-8 are carefully chosen to be fun to work with, to encourage small but expressive designs, and to give cartridges made with PICO-8 their own particular look and feel. \- [lexaloffle.com](https://www.lexaloffle.com/pico-8.php)
+
+#### Community
+
+- There is a great community around PICO-8 because it's very easy to share cartridges.
+- You can play carts online and locally on your machine by running `SPLORE`
+
+#### Example games
+
+- [Celeste](https://www.lexaloffle.com/bbs/?tid=2145)
+    - Was made on the PICO-8 before becoming a very successful game on more 'advanced' platforms
+- [Lines](https://www.lexaloffle.com/bbs/?pid=64653#p)
+    - People also create visuals
 
 ### Dive in!
 
-- Intro
-  - "Today we'll make a visualization while learning about PICO-8!"
-- Navigation
-	- Everyone open PICO-8 and share your screen
-	- Commands
-	    - LS, CD, MKDIR, HELP, CLS
-	    - Splore
-            - Play a game locally!
-	- Editor
-	    - Code, Sprite, Map, Sound, Music
-    - Cheat sheets!
-      - [PICO-8 Cheat Sheet](https://www.lexaloffle.com/bbs/files/16585/PICO-8_Cheat-Sheet_0-9-2.png)
+#### Intro
+
+- "Today we'll make a visualization while learning about PICO-8!"
+- Everyone open PICO-8 and share your screen.
+  - Ideally you can see my screen and your pico-8 side by side
+
+####  Navigation
+- Commands
+    - `HELP`, `LS`, `CD`, `MKDIR`
+    - `INSTALL_DEMOS`
+        - Play a game locally!
+        - `LOAD JEPLI` + `RUN`
+- Editor
+    - Code, Sprite, Map, Sound, Music
+
+#### Resources
+
+- Download this:
+- Run `FOLDER` in pico-8 and then copy paste the `code/` folder into the directory that PICO-8 opened.
+- You should now see the `CODE` directory in your PICO-8 when you run `LS`
+- The folder you just downloaded also has all the lesson plans (in english, sorry) and resources
+- Let's check out the resources folder really quickly:
+  - Open the [resources/cheatsheet.png](../resources/cheatsheet.png) file for example
 
 ### Hello Circle
 
 - We will now make some visualization.
 - I will explain the code and then we'll do some exercises.
 - Feel free to interrupt me at any point if you get stuck or have any questions
+- You don't need to copy any of my code, just focus on understanding what I'm explaining and ask questions!
 
 #### Draw single
 
-- shapes `circlfill`
-- sprites `spr`
-- sounds `sfx`
+- 128x128 coordinate space
+
+![coordinates.png](images/coordinates.png)
+
+- Draw shapes with `circlfill`, `rectfill`, `circ`, `rect`, `line`
+- Draw sprites with `spr`
 
 ```lua
 function _init()
@@ -223,13 +257,8 @@ end
     - `_draw`
     - tables
     - shapes
-
 - Use resources
-    - [PICO-8 Resources](https://github.com/SourenP/pico_workshop#resources)
-      - [Cheat Sheet](https://www.lexaloffle.com/bbs/files/16585/PICO-8_Cheat-Sheet_0-9-2.png)
-    - [Workshop repo](https://github.com/SourenP/pico_workshop)
-      - [This lesson plan](https://github.com/SourenP/pico_workshop/blob/master/lesson_plan/day_1.md)
-      - [circles.p8](code/circles.p8)
+- Play with the PICO-8 demos!
 
 ### Bye bye
 
