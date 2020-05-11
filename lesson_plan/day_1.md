@@ -64,7 +64,7 @@ Meet+greet, learn about PICO-8 and make our first visualization!
 
 #### Resources
 
-- Download this:
+- Download this: [pico_workshop_v1.zip](https://github.com/SourenP/pico_workshop/releases/download/1.0/pico_workshop_v1.zip) (tinyurl.com/y96gzdmc)
 - Run `FOLDER` in pico-8 and then copy paste the `code/` folder into the directory that PICO-8 opened.
 - You should now see the `CODE` directory in your PICO-8 when you run `LS`
 - The folder you just downloaded also has all the lesson plans (in english, sorry) and resources
