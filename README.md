@@ -14,6 +14,55 @@ For example, a Unity game might have to work on dozens of screen resolutions, bu
 
 They also made a nice video that gives a quick intro: [Delightful Game Development with PICO-8](https://www.youtube.com/watch?v=K5RXMuH54iw)
 
+### Logistics
+- 6 lessons, each 2 hours
+
+### Lesson Plan
+
+- [Day 1](lesson_plan/day_1.md)
+- [Day 2](lesson_plan/day_2.md)
+- [Day 3](lesson_plan/day_3.md)
+- Day 4
+- Day 5
+- Day 6
+
+### Method
+
+- Learn by doing
+  - 1st half: Teachers walkthrough two sample games with students doing exercises and homework
+  - 2nd half: Students create their own games with support from teachers.
+
+### Outcome
+
+- Each student creates an original PICO-8 game that can be run on the console and web
+
+### Software and Licensing
+The entire game development workflow can be run on the PICO-8 executable.
+It runs on Windows, Mac and Linux.
+
+The software can be purchased by educators with a "Take-Home License" at 20% of the price ($3) in blocks of 10 or more.
+Read more here: [lexaloffle.com/pico-8.php?page=schools](https://www.lexaloffle.com/pico-8.php?page=schools)
+
+### Prereqs
+
+- [PICO-8](https://www.lexaloffle.com/pico-8.php) application
+- Basic coding skills
+  - variables
+  - loops
+  - arrays
+  - objects
+  - functions
+- Basic math skills
+  - square and square root (optional)
+- Enthusiasm
+
+### Application
+
+- Game development and design questions
+  - _hidden_
+- Programming exercise
+  - _hidden_
+
 ### Examples of PICO-8 games
 
 - Action
@@ -37,59 +86,11 @@ They also made a nice video that gives a quick intro: [Delightful Game Developme
   - [FUZ](https://www.lexaloffle.com/bbs/?pid=64346#p)
   - [PICOHOT](https://www.lexaloffle.com/bbs/?pid=74385#p)
 
-### Logistics
-- 6 lessons, each 2 hours
-
-### Method
-
-- Learn by doing
-  - 1st half: Teachers walkthrough two sample games with students doing exercises and homework
-  - 2nd half: Students create their own games with support from teachers.
-
-### Outcome
-
-- Each student creates an original PICO-8 game that can be run on the console and web
-
-### Software and Licensing
-The entire game development workflow can be run on the PICO-8 executable.
-It runs on Windows, Mac and Linux.
-
-The software can be purchased by educators with a "Take-Home License" at 20% of the price ($3) in blocks of 10 or more.
-Read more here: [lexaloffle.com/pico-8.php?page=schools](https://www.lexaloffle.com/pico-8.php?page=schools)
-
-
-### Lesson Plan
-
-- [Day 1](lesson_plan/day_1.md)
-- [Day 2](lesson_plan/day_2.md)
-- [Day 3](lesson_plan/day_3.md)
-- Day 4
-- Day 5
-- Day 6
-
-### Prereqs
-
-- [PICO-8](https://www.lexaloffle.com/pico-8.php) application
-- Basic coding skills
-  - variables
-  - loops
-  - arrays
-  - objects
-  - functions
-- Basic math skills
-  - square and square root (optional)
-- Enthusiasm
-
-### Application
-
-- Game development and design questions
-  - _hidden_
-- Programming exercise
-  - _hidden_
-
 ### Resources
+- Official PICO-8 Resources
+  - [Lexaloffle: PICO-8 Resources](https://www.lexaloffle.com/pico-8.php?page=resources)
 - PICO-8 Documentation
-  - [Official PICO-8 Documentation](https://www.lexaloffle.com/pico-8.php?page=resources)
+  - [Lexaloffle: PICO-8 Manual](https://www.lexaloffle.com/pico8_manual.txt)
   - [Wiki: API Reference](https://pico-8.fandom.com/wiki/APIReference)
   - [Nerdy Teachers: PICO-8 Guide](https://nerdyteachers.com/PICO-8/Guide/)
 - PICO-8 Cheat Sheets
@@ -100,6 +101,8 @@ Read more here: [lexaloffle.com/pico-8.php?page=schools](https://www.lexaloffle.
   - [Programming in Lua](https://www.lua.org/pil/contents.html)
 - Tutorials
   - [Nerdy Teachers: PICO-8 Tutorials and Guides](https://nerdyteachers.com/PICO-8/)
+- Videos
+  - TODO
 - Additional Resources
   - [PICO-ATE: Altruistic Template Encyclopedia for PICO-8](https://www.pico-ate.com/)
 
