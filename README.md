@@ -43,8 +43,8 @@ They also made a nice video that gives a quick intro: [Delightful Game Developme
 ### Method
 
 - Learn by doing
-  - Tutorial style lessons with exersices and homework in first half
-  - Students creates their very own game in second half
+  - 1st half: Teachers walkthrough two sample games with students doing exercises and homework 
+  - 2nd half: Students create their own games with support from teachers.
 
 ### Outcome
 
@@ -82,7 +82,10 @@ Read more here: [lexaloffle.com/pico-8.php?page=schools](https://www.lexaloffle.
 
 ### Application
 
-_hidden_
+- Game development and design questions
+  - _hidden_
+- Programming exercise
+  - _hidden_
 
 ### Resources
 - PICO-8 Documentation
@@ -104,10 +107,8 @@ _hidden_
 - [X] Application
 - [X] Resources
 - [X] Examples of pico-8 games
-- [X] Lesson plan day 1
-- [X] Lesson plan day 2
-- [X] Lesson plan day 3
-- [ ] Lesson plan day 4
-- [ ] Lesson plan day 5
-- [ ] Lesson plan day 6
+- [X] Lesson plan 1
+- [X] Lesson plan 2
+- [X] Lesson plan 3
+- [ ] Lesson plan 4
 - [ ] Zoom format/tools
