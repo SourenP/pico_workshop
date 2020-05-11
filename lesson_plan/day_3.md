@@ -74,7 +74,7 @@ end
 
 ##### Draw player
 
-- *Exercise!*
+- *Exercise! (6m)*
   - How would you draw the player using the `player` table
   - Base code: [code/exercises/cell_draw.p8](code/exercises/cell_draw.p8)
     - Write code under comment `--player` in `_draw()`
@@ -92,7 +92,7 @@ end
 
 ##### Move player
 
-- *Exercise!*
+- *Exercise! (6m)*
   - How would we get the player to move using the `player` table
   - Hint: we have `player.x` `player.y` `player.speed` `btn(0) btn(1) btn(2) btn(3)`
   - Base code: [code/exercises/cell_move.p8](code/exercises/cell_move.p8)
@@ -193,7 +193,7 @@ end
 
 ##### Move and draw enemies
 
-- *Exercise!*
+- *Exercise! (8m)*
   - How do we make the enemies move?
   - Base code: [code/exercises/cell_enemy.p8](code/exercises/cell_enemy.p8)
     - Write code under comment `-- move enemies` in `_update()`
@@ -236,7 +236,7 @@ end
 
 - Enemies are being created on the same line on each side. It would be nicer if they moved in at different times and speeds.
 
-- *Exercise!*
+- *Exercise! (10m)*
   - How would you do this?
   - No need to write code, discuss verbally and write together
 
@@ -293,7 +293,7 @@ function create_enemies()
 - We only have one wave of enemies. When an enemy leaves the screen they keep going forever.
 
 
-- *Exercise!*
+- *Exercise! (8m)*
   - We should delete an enemy when it leaves the screen so that a new enemy spawns in its place.
   - We can also give the player a point when an enemy leaves.
   - Base code: [code/exercises/cell_delete.p8](code/exercises/cell_delete.p8)
@@ -380,7 +380,7 @@ end
 
 - Now that we can detect collision, let's make it so that the player's score resets to zero when they hit a circle
 
-- *Exercise!*
+- *Exercise! (6m)*
   - How would you do this?
   - Base code: [code/exercises/cell_collide.p8](code/exercises/cell_collide.p8)
     - Write code under comment `-- enemy player collision` in `_update()`
