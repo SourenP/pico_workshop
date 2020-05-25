@@ -14,11 +14,13 @@ For example, a Unity game might have to work on dozens of screen resolutions, bu
 
 They also made a nice video that gives a quick intro: [Delightful Game Development with PICO-8](https://www.youtube.com/watch?v=K5RXMuH54iw)
 
-### Logistics
-- 6 lessons, each 2 hours
+### Setup Instructions
+
+Todo
 
 ### Lesson Plan
 
+6 lessons, each 2 hours:
 - [Day 1](lesson_plan/day_1.md)
 - [Day 2](lesson_plan/day_2.md)
 - [Day 3](lesson_plan/day_3.md)
