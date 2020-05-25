@@ -14,20 +14,6 @@ For example, a Unity game might have to work on dozens of screen resolutions, bu
 
 They also made a nice video that gives a quick intro: [Delightful Game Development with PICO-8](https://www.youtube.com/watch?v=K5RXMuH54iw)
 
-### Setup Instructions
-
-Todo
-
-### Lesson Plan
-
-6 lessons, each 2 hours:
-- [Day 1](lesson_plan/day_1.md)
-- [Day 2](lesson_plan/day_2.md)
-- [Day 3](lesson_plan/day_3.md)
-- Day 4
-- Day 5
-- Day 6
-
 ### Method
 
 - Learn by doing
@@ -36,7 +22,7 @@ Todo
 
 ### Outcome
 
-- Each student creates an original PICO-8 game that can be run on the console and web
+- Each student creates an original PICO-8 game that can be run on the console and web.
 
 ### Software and Licensing
 The entire game development workflow can be run on the PICO-8 executable.
@@ -57,6 +43,23 @@ Read more here: [lexaloffle.com/pico-8.php?page=schools](https://www.lexaloffle.
 - Basic math skills
   - square and square root (optional)
 - Enthusiasm
+
+### Lesson Plan
+
+6 lessons, each 2 hours:
+- [Day 1](lesson_plan/day_1.md)
+- [Day 2](lesson_plan/day_2.md)
+- [Day 3](lesson_plan/day_3.md)
+- Day 4
+- Day 5
+- Day 6
+
+### Setup Instructions
+
+- Download [Release 1.0](https://github.com/SourenP/pico_workshop/releases/tag/1.0)
+  - Unzip
+  - Paste `code/` dir into the PICO-8 `carts/` dir (which can be opened by running the command `folder` in PICO-8)
+  - Use the resources provided in the `resources/` dir
 
 ### Application
 
