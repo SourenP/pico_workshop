@@ -65,6 +65,13 @@ Read more here: [lexaloffle.com/pico-8.php?page=schools](https://www.lexaloffle.
   - square and square root (optional)
 - Enthusiasm
 
+### Setup Instructions
+
+- Download [Release 1.0](https://github.com/SourenP/pico_workshop/releases/tag/1.0)
+  - Unzip
+  - Paste `code/` dir into the PICO-8 `carts/` dir (which can be opened by running the command `folder` in PICO-8)
+  - Use the resources provided in the `resources/` dir
+
 ### Application
 
 - Game development and design questions
@@ -96,9 +103,12 @@ Read more here: [lexaloffle.com/pico-8.php?page=schools](https://www.lexaloffle.
   - [PICOHOT](https://www.lexaloffle.com/bbs/?pid=74385#p)
 
 ### Resources
+- Official PICO-8 Resources
+  - [Lexaloffle: PICO-8 Resources](https://www.lexaloffle.com/pico-8.php?page=resources)
 - PICO-8 Documentation
-  - [Official PICO-8 Documentation](https://www.lexaloffle.com/pico-8.php?page=resources)
+  - [Lexaloffle: PICO-8 Manual](https://www.lexaloffle.com/pico8_manual.txt)
   - [Wiki: API Reference](https://pico-8.fandom.com/wiki/APIReference)
+  - [Nerdy Teachers: PICO-8 Guide](https://nerdyteachers.com/PICO-8/Guide/)
 - PICO-8 Cheat Sheets
   - [cheatsheet (image)](https://www.lexaloffle.com/bbs/files/16585/PICO-8_Cheat-Sheet_0-9-2.png)
   - [cheatsheet (site)](https://neko250.github.io/pico8-api/)
@@ -106,6 +116,8 @@ Read more here: [lexaloffle.com/pico-8.php?page=schools](https://www.lexaloffle.
   - [DevDocs: Lua Documentation](https://devdocs.io/lua/)
   - [Programming in Lua](https://www.lua.org/pil/contents.html)
 - Tutorials
-  - [Nerdy Coding: PICO-8 Tutorials and Guides](https://nerdyteachers.com/PICO-8/)
+  - [Nerdy Teachers: PICO-8 Tutorials and Guides](https://nerdyteachers.com/PICO-8/)
+- Videos
+  - TODO
 - Additional Resources
   - [PICO-ATE: Altruistic Template Encyclopedia for PICO-8](https://www.pico-ate.com/)
