@@ -16,16 +16,8 @@ They also made a nice video that gives a quick intro: [Delightful Game Developme
 
 ### Logistics
 
-#### Time
 - 6 lessons over two or three weeks, each 2 hours
 - Can be done over video chat or in person
-
-#### Software and Licensing
-The entire game development workflow is solely done on the PICO-8 executable.
-It runs on Windows, Mac and Linux and doesn't require a strong computer.
-
-The software can be purchased by educators with a "Take-Home License" at 20% of the price ($3) in blocks of 10 or more.
-Read more here: [lexaloffle.com/pico-8.php?page=schools](https://www.lexaloffle.com/pico-8.php?page=schools)
 
 ### Method
 
@@ -71,6 +63,13 @@ Read more here: [lexaloffle.com/pico-8.php?page=schools](https://www.lexaloffle.
   - Unzip
   - Paste `code/` dir into the PICO-8 `carts/` dir (which can be opened by running the command `folder` in PICO-8)
   - Use the resources provided in the `resources/` dir
+  
+### Software and Licensing
+The entire game development workflow is solely done on the PICO-8 executable.
+It runs on Windows, Mac and Linux and doesn't require a strong computer.
+
+The software can be purchased by educators with a "Take-Home License" at 20% of the price ($3) in blocks of 10 or more.
+Read more here: [lexaloffle.com/pico-8.php?page=schools](https://www.lexaloffle.com/pico-8.php?page=schools)
 
 ### Application
 
