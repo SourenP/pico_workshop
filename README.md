@@ -59,6 +59,8 @@ They also made a nice video that gives a quick intro: [Delightful Game Developme
 
 ### Setup Instructions
 
+- Download PICO-8
+  - Make sure it runs
 - Download [Release 1.0](https://github.com/SourenP/pico_workshop/releases/tag/1.0)
   - Unzip
   - Paste `code/` dir into the PICO-8 `carts/` dir (which can be opened by running the command `folder` in PICO-8)
