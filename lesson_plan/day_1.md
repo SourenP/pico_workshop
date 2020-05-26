@@ -132,6 +132,11 @@ end
 
 #### Draw Table
 ##### Tables as maps
+
+- Tables hold a set of properties
+
+![table](images/table.png)
+
 ```lua
 function _init()
   c = {
