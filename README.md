@@ -27,7 +27,11 @@ They also made a nice video that gives a quick intro: [Delightful Game Developme
 
 ### Outcome
 
-- Each student creates and publishes an original PICO-8 game that can be run on the console and web
+- Each student creates and publishes an original PICO-8 game that can be run on the console and web.
+- Results from previous workshops:
+  - Ani Petrosyan: [Painting Tool](https://www.lexaloffle.com/bbs/?uid=44814)
+  - Vahe Khachatryan: [Ninja Run](https://www.lexaloffle.com/bbs/?pid=77312#p)
+  - David Sargsyan: [Agar.io](https://www.lexaloffle.com/bbs/?pid=77318#p)
 
 ### Lesson Plan
 
